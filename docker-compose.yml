@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  cache:
+    image: redis:latest
+    ports:
+      - 6379:6379
+
+  storage:
+    image: minio/minio:latest
+    ports:
+      - 9000:9000
+    command: server /data
+
+  database:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=foto
+    volumes:
+      - ./volumes/output:/var/lib/mysql
+    ports:
+      - 3306:3306
