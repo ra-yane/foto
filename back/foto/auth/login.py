@@ -8,12 +8,12 @@ from ..exceptions import *
 from ..managers import users
 
 SCOPES = ['https://www.googleapis.com/auth/userinfo.profile',
-          'https://www.googleapis.com/auth/userinfo.email',
-          'https://www.googleapis.com/auth/plus.me',
           'https://www.googleapis.com/auth/spreadsheets.readonly',
-          'https://www.googleapis.com/auth/spreadsheets']
+          'https://www.googleapis.com/auth/userinfo.email',
+          'https://www.googleapis.com/auth/spreadsheets',
+          'openid']
 
-AUTHORIZED_DOMAINS = ['hellofresh.com.au', 'hellofresh.co.nz', 'hellofresh.com']
+AUTHORIZED_DOMAINS = ['hellofresh.ca', 'hellofresh.com']
 
 
 def create_auth(app):

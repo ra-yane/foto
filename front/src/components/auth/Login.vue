@@ -7,7 +7,7 @@
         <v-card flat id="card" color="transparent">
           <v-card-title primary-title>
             <div class="text">
-              <v-btn block color="primary" v-on:click="login" id="connect">Log in</v-btn>
+              <v-btn block round flat large color="primary" v-on:click="login" id="connect">Log in</v-btn>
             </div>
           </v-card-title>
         </v-card>

@@ -8,9 +8,9 @@ import axios from "axios";
 
 Vue.use(Vuetify, {
   theme: {
-    primary: '#626262',
-    secondary: "#626262",
-    error: "#ff7a73",
+    primary: '#BF3636',
+    secondary: "#802424",
+    error: "#FFCEC6",
     warning: '#ffc852'
   }
 });

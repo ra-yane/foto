@@ -6,7 +6,7 @@
         <v-progress-circular indeterminate color="primary" v-if="!error"></v-progress-circular>
         <div v-else>
           {{ errorMessage }}<br/>
-          <v-btn to="/" color="error">Go to the home page</v-btn>
+          <v-btn round flat large to="/" color="error">Go to the home page</v-btn>
         </div>
       </v-flex>
     </v-layout>
