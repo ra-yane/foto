@@ -1,7 +1,7 @@
-# Foto
+# 2Pack
  
  
-## How to dev Foto
+## How to dev 2Pack
 
 > Requirements
 > * Docker and Docker-compose

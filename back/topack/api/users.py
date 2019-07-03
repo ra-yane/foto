@@ -13,7 +13,7 @@ class Users(Resource):
     @jwt_required
     def get(self):
         """
-        Get the list of users in foto
+        Get the list of users in topack
         :return: list of users
         """
         search = request.args.get('search', None)

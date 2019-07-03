@@ -15,7 +15,7 @@ services:
   database:
     image: mysql:5.7
     environment:
-      - MYSQL_ROOT_PASSWORD=foto
+      - MYSQL_ROOT_PASSWORD=topack
     volumes:
       - ./volumes/output:/var/lib/mysql
     ports:

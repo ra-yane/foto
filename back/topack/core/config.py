@@ -17,6 +17,6 @@ if log_level == 'DEBUG':
 else:
     logger.setLevel(logging.INFO)
 
-logger = logging.getLogger('foto')
+logger = logging.getLogger('topack')
 
 version = '0.1.0'

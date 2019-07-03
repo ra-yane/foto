@@ -1,7 +1,7 @@
 {
-  "name": "foto",
+  "name": "to-pack",
   "version": "1.0.0",
-  "description": "The front package for Foto.",
+  "description": "The front package for 2Pack Canada.",
   "author": "Rayane Boucheffa <rayane.bcf@gmail.com>",
   "private": true,
   "scripts": {

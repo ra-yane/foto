@@ -2,7 +2,7 @@
   "database": {
     "host": "localhost",
     "user": "root",
-    "password": "foto"
+    "password": "topack"
   },
   "cache": {
     "host": "localhost",

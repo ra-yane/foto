@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <fotoheader v-if="forbiddenPath()"></fotoheader>
+      <toPackHeader v-if="forbiddenPath()"></toPackHeader>
       <v-content>
         <transition name="fade" mode="out-in">
           <router-view :key="$route.fullPath"></router-view>
@@ -21,7 +21,7 @@
       }
     },
     components: {
-      fotoheader: Header
+      toPackHeader: Header
     },
     methods: {
       forbiddenPath: function () {
