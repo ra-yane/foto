@@ -1,6 +1,6 @@
 # Foto
 
-> The front package for 2Pack.
+> The front package for Foto.
 
 ## Build Setup
 
